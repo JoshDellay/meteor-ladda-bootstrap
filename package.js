@@ -1,19 +1,17 @@
 Package.describe({
-  name: 'subcreative:ladda-spinner',
+  name: 'joshdellay:meteor-ladda-bootstrap',
   summary: ' Ladda bootstrap spinner for meteor ',
-  version: '1.0.0',
-  git: ' /* Fill me in! */ '
+  version: '1.0.1',
+  git: 'https://github.com/JoshDellay/meteor-ladda-bootstrap/'
 });
 
 Package.onUse(function(api) {
   api.versionsFrom('1.0.2.1');
-  api.addFiles('ladda-themeless.css');
-  api.addFiles('ladda.js');
-  api.addFiles('spin.js');
+  api.addFiles('lib/ladda-themeless.css', 'client');
+  api.addFiles('lib/ladda.js', 'client');
+  api.addFiles('lib/spin.js', 'client');
 });
 
 Package.onTest(function(api) {
-  api.use('tinytest');
-  api.use('subcreative:ladda-spinner');
-  api.addFiles('subcreative:ladda-spinner-tests.js');
+  api.use('joshdellay:meteor-ladda-bootstrap');
 });
