@@ -3,7 +3,7 @@ Package.describe({
   summary: ' Ladda bootstrap spinner for meteor ',
   version: '1.0.2',
   git: 'https://github.com/JoshDellay/meteor-ladda-bootstrap/',
-  documentation: null
+  documentation: 'README.md'
 });
 
 Package.onUse(function(api) {
