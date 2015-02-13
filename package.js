@@ -10,6 +10,7 @@ Package.onUse(function(api) {
   api.addFiles('lib/ladda-themeless.css', 'client');
   api.addFiles('lib/ladda.js', 'client');
   api.addFiles('lib/spin.js', 'client');
+  api.addFiles('lib/ladda.jquery.min.js', 'client');
 });
 
 Package.onTest(function(api) {
