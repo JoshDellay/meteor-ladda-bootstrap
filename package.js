@@ -1,7 +1,7 @@
 Package.describe({
   name: 'joshdellay:meteor-ladda-bootstrap',
   summary: ' Ladda bootstrap spinner for meteor ',
-  version: '1.0.3',
+  version: '1.0.4',
   git: 'https://github.com/JoshDellay/meteor-ladda-bootstrap/',
   documentation: 'README.md'
 });
