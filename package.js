@@ -8,9 +8,9 @@ Package.describe({
 
 Package.onUse(function(api) {
   api.versionsFrom('1.0.2.1');
+  api.addFiles('lib/spin.js', 'client');
   api.addFiles('lib/ladda-themeless.css', 'client');
   api.addFiles('lib/ladda.js', 'client');
-  api.addFiles('lib/spin.js', 'client');
   api.addFiles('lib/ladda.jquery.min.js', 'client');
 });
 
